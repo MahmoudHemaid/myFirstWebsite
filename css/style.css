@@ -1,0 +1,732 @@
+body {
+    margin:0px;
+    
+    background-color:#dcddd8;
+}
+.clear {
+    clear: right;
+}
+.clearBoth {
+   clear:both;
+}
+.container {
+    width:1170px;
+    margin:auto;
+}
+.dn-1{
+    visibility:hidden;
+    width:100%;
+    height:65px;
+    background-color: firebrick;
+    box-shadow: -2px -3px 13px #000;
+    position: absolute;
+    margin-top: -67px;
+}
+h1,h2,h3 {font-family: Merriweather;}
+p,span {font-family:Alegreya Sans;}
+/* Start Navbar */
+.navbar {
+    margin: 0px;
+    width:100%;
+    height:65px;
+    background-color:#354b5e;
+    overflow: hidden;
+    position:fixed;
+    z-index: 9999;
+    opacity: 0.8;
+}
+.navbar .logo {
+    float:left;
+    margin-bottom: 20px;
+    
+}
+.navbar .logo:hover {
+    cursor:pointer;
+}
+.navbar .logo h1 {
+    margin: 0px;
+    font-size:28px;
+    padding-top: 13px;
+    color:#dcddd8;
+}
+.navbar .logo h1 span {
+    color:aquamarine
+}
+.navbar .nav {
+    float:left;
+}
+.navbar .nav ul {
+    list-style: none;
+    color:#dcddd8;
+    overflow: hidden;
+    margin-left: 320px;
+}
+.navbar .nav ul li {
+    float:left;
+    margin-left: 5px;
+    font-size:28px;
+    text-transform:capitalize;
+    overflow: hidden;border-radius: 40px;
+    
+}
+.navbar .nav ul li a {
+    color:#dcddd8;
+    text-decoration: none;
+    padding: 50px 15px;
+    
+    
+}
+.navbar .nav ul li a:hover {
+    color:#fff;
+    background-color:cornflowerblue;
+    transition:0.5s;
+    
+}
+/* End Navbar */
+/* Start Slider */
+
+.slider .bg {
+    background-image: url("../images/bg-slider.gif");
+    background-size: cover;
+    height:600px;
+    padding-top: 58px;
+    background-attachment:fixed;
+    text-align: center;
+
+}
+.slider .bg .intro {
+    margin-top: 15%;
+    position: relative;
+    
+    
+}
+.slider .bg .bg-intro {
+    background-color: #000;
+    width: 580px;
+    height: 170px;
+    position: absolute;
+    margin-top:190px;
+    margin-left: 382px;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+.slider .bg .intro h1 {
+    font-size: 35px;
+    color:#fa2;
+    margin-bottom: 10px;
+    text-shadow:         
+        1px 2px 3px #000,
+        -3px 0px 4px #444444;
+    
+}
+.slider .bg .intro p {
+   color:#dcddd8;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight:bold;
+}
+.slider .bg .intro button {
+    background: none;
+    margin-top:0px;
+    font-size: 20px;
+    border: 2px solid #dcddd8;
+    font-weight:bold;
+    padding: 10px 30px;
+    color:#dcddd8;
+    border-radius: 2px;
+    transition:0.5s;
+    cursor:pointer;
+}
+.slider .bg .intro button:hover {
+    background-color: #2DCC70;
+    color: #fff;
+}
+/* End Slider */
+.dn {
+    width:100%;
+    height:65px;
+    background-color: firebrick;
+    box-shadow: -2px -3px 13px #000;
+    position: absolute;
+ 
+}
+
+/* Start About Me */
+
+.about-me .mass {
+    width:80%;
+    margin: 32.5px auto;
+    height:500px;
+    background-color:#475f77;
+    z-index:5px;
+    position: relative;
+    border-radius:2px; 
+}
+.about-me .mass img {
+    height: 100%;
+    width:47%;
+    float:left;
+    z-index: 2;
+    border-radius:2px; 
+}
+.about-me .mass .about {
+    margin-left: 5%;
+    width: 47%;
+    float:left;
+
+    
+}
+.about-me .mass .about h2 {
+    font-size: 28px;
+    padding: 0px;
+    color:#fa2;
+    margin-bottom: 18px;
+}
+.about-me .mass .about p {
+    color:#dcddd8;
+    font-size: 16px;
+    width: 86%;
+    margin: 0px;
+}
+.about-me .mass .about button {
+    background: none;
+    background-color:#FEBC3F; 
+    margin-top:18px;
+    font-size: 15px;
+    border: 2px hidden #dcddd8;
+    font-weight:bold;
+    padding: 7px 15px;
+    color:#fff;
+    border-radius:2px;
+}
+.about-me .mass .about button:hover {
+    background-color: #FFF;
+    color: #FEBC3F;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.about-me .mass .follow {
+    width: 53%;
+    height: 99px;
+    background-color: #34424c;
+    z-index: 1;
+    float: left;
+    margin-top:123px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius:2px; 
+}
+.about-me .mass .follow ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    color:#dcddd8;
+    border: 1px solid #39454f;
+    z-index: 1;
+    padding-left: 21px;
+}
+.about-me .mass .follow ul li {
+    float:left;
+    padding-top: 0px;
+}
+.about-me .mass .follow ul li i {
+    font-size: 36px;
+}
+.about-me .mass .follow ul li i:hover{color:#fff;cursor:pointer;}
+.about-me .mass .follow ul .two {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+.about-me .mass .follow ul li .title {
+    font-size: 22px;
+    margin-bottom: -5px;
+    padding: 0px 10px;
+}
+.about-me .mass .follow ul li .number {
+    margin-left: 74px;
+    margin-top: -15px;
+    font-size: 21px;
+}
+.about-me .mass .follow ul .three {
+    margin-top: -10px;
+    margin-left: -12px;
+}
+.about-me .mass .follow ul .facebook {
+    float: left;
+    border-right: 1px solid #49555e;
+    height: 80px;
+    width: 31%;
+    margin-right: 14px;
+    padding-top:19px;
+    margin-bottom: 15px;
+}
+.about-me .mass .follow ul .twitter {
+    float: left; width: 31%;
+    border-right: 1px solid #49555e;
+    margin-right: 14px;
+    padding-top:19px;
+    height: 80px;
+}
+.about-me .mass .follow ul .instagram {
+    float: left; width: 31%;
+    padding-top:19px;
+    height: 80px;
+}
+.dn2 {
+    width:100%;
+    height:65px;
+    background-color: #b22222;
+    box-shadow: 2px 3px 13px #000;
+    margin-top:-64.5px;
+ 
+}
+/* End About Me */
+/* 
+h2 #fa2
+h2 #FEBC3F
+p #DCDDD8
+h3 #E3DEC1
+p #47AFAF
+span #DCDDD8
+*/
+/* Start My Skills - My Works */
+.skills-works {
+    width:100%;
+    height:500px;
+    background-color: #475F77;
+    margin-bottom: 0px;
+}
+.skills-works .my-skills {
+    box-sizing:border-box;
+    width:50%;
+    height: 100%;
+    border-right:1px solid #DCDDD8; 
+    background-color: #554e44;
+    float: left;
+    padding:20px;
+}
+
+
+.skills-works .my-skills > h2,
+.skills-works .our-works > h2 {
+    color:#fa2;
+}
+.skills-works .my-skills > p,
+.skills-works .our-works > p {
+    color:#DCDDD8;
+}
+.skills-works .skills h3 {margin-bottom: 8px;}
+.skills-works .skills  {position: relative;width: 65%; color:#E3DEC1;}
+.skills-works .skills .bar-1 {
+    position:absolute;
+    width:100%;
+    height: 25px;
+    background-color: #DCDDD8;
+    overflow: hidden;
+    border-radius:15px;
+    
+}
+.skills-works .skills .bar-2 {
+    background-color:#47AFAF;height: 21px;position: relative;border-radius:15px;
+    padding-top: 4px;
+}
+.skills-works .skills .html .bar-2  {width: 85%;}
+.skills-works .skills .css .bar-2  {width: 80%;}
+.skills-works .skills .photoshop .bar-2 {width: 20%;}
+.skills-works .skills .css3 .bar-2 {width: 15%;}
+
+.skills-works .skills .html .bar-1:hover,
+.skills-works .skills .css .bar-1:hover,
+.skills-works .skills .photoshop .bar-1:hover,
+.skills-works .skills .css3 .bar-1:hover {transition:0.5s;background-color:#FFF}
+
+.skills-works .skills .html .bar-2:hover,
+.skills-works .skills .css .bar-2:hover,
+.skills-works .skills .photoshop .bar-2:hover,
+.skills-works .skills .css3 .bar-2:hover {background-color:#2b7575;transition:0.5s;cursor: pointer;}
+
+.skills-works .skills .bar-2 span {
+    padding-right:10px; ;
+    float:right;
+    font-weight:800;
+    color:#DCDDD8;
+    font-size: 16px;
+}
+.skills-works .skills .bar-2 span .hundred {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.skills-works .our-works {
+    box-sizing:border-box;
+    width:50%;
+    height: 100%;
+    border-left:1px solid #DCDDD8;
+    background-color: #554e44;
+    float:right;
+    padding:20px;
+}
+.skills-works .our-works .works {
+    width:95%;height: 78%;
+    
+}
+.skills-works .our-works .works {width:100%;padding: 0px;}
+.skills-works .our-works .works ul {
+    width: 100%;height: 100%;padding: 5px;
+}
+.skills-works .our-works .works li {
+    float:left;
+    width:32%;
+    height: 47%;
+    margin-right: 1.3%;
+    margin-bottom:1.3%;
+    box-sizing:border-box;
+    list-style:none;
+    border-radius:2px;
+}
+.skills-works .our-works .works li img {
+    width:100%;
+    height: 100%;
+    border-radius:2px;
+    border: 1px solid #DCDDD8;
+}
+/* End My Skills - My Works */
+/* Start My Team D2D3D5*/
+.my-team .team-container {
+    width:80%;
+    margin:0px auto;
+    height:500px;
+    text-align: center;
+    background-color:;
+}
+.my-team .team-container .team {
+    background-color: ;
+    width:80%;
+    height: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0.1px;
+}
+.my-team .team-container h2 {
+    color:#39484D;
+    text-transform:uppercase;
+    
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 5px;
+    margin-top:50px;
+    
+}
+.my-team .team-container p {
+    color:#839595;
+    font-size: 20px;
+    font-weight:600;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+}
+.my-team .team .one,
+.my-team .team .three{
+    box-sizing:border-box;
+    background-color: #FFF;
+    margin-top:3.8%;
+    width:31%;
+    height:80%;
+    float:left;
+    border-radius:2px;
+    border:1px solid #D2D3D5;
+    
+    
+}
+.my-team .team .one h3,
+.my-team .team .three h3 {
+    color:#888D91;
+    font-size:20px;
+}
+.my-team .team .one img,
+.my-team .team .three img {
+    border-radius:50%;
+    display:block;
+    margin:0px auto;
+}
+.my-team .team img:hover {
+    transform:rotate(360deg);
+    transition:0.5s;
+}
+.my-team .team .one .info,
+.my-team .team .three .info {
+    margin-top:20px;
+    color:#b8b9bb;
+}
+.my-team .team .one span,
+.my-team .team .three span{
+    display:block;
+    width:50%;
+    padding: 5px 15px;
+    margin:0 auto;
+    border-top:1px solid #d1d1dd;
+}
+.my-team .team .one button,
+.my-team .team .three button
+{
+    margin-top:4px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    background-color: #FEBC3F;
+    font-weight:bold;
+    padding: 5px 15px;
+    color:#FFF;
+    border-radius:2px;
+}
+.my-team .team .one button:hover,
+.my-team .team .three button:hover {
+    background-color: #719DCA;
+    color: #FEBC3F;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.my-team .team .one {border-right:none;}
+
+.my-team .team .two{
+    box-sizing:border-box;
+    background-color: #719DCA;
+    width:38%;
+    height:95%;
+    float:left;
+    border-radius:2px;
+    
+    
+}
+.my-team .team .two h3 {
+    font-size:24px;
+    font-weight:bold;
+    color:#FFF;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.my-team .team .two img {
+    border-radius:50%;
+    display:block;
+    margin:0px auto;
+}
+.my-team .team .two .info {
+    margin-top:20px;
+    font-size:19px;
+    color:#ACD2F2;
+}
+.my-team .team .two span {
+    display:block;
+    width:50%;
+    padding: 10px 25px;
+    margin:0 auto;
+    border-top:1px solid #ACD2F2
+}
+.my-team .team .two button {
+    margin-top:2px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    background-color: #FEBC3F;
+    font-weight:bold;
+    padding: 8px 18px;
+    color:#FFF;
+    border-radius:2px;
+}
+.my-team .team .two button:hover {
+    background-color: #FFF;
+    color: #FEBC3F;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.my-team .team .three{border-left:none;}
+
+.dn3 {
+    width:100%;
+    height:65px;
+    background-color: #b22222;
+    box-shadow: 0px 4px 10px #000;
+    margin-top:26px;-64.5px
+ 
+}
+
+/* End My Team Info */
+/* Start Contact Me */
+.contact-me {
+    width:100%;
+    height:530px;
+    background-color: #554e44;
+    margin-top: 2px;
+    padding: 15px;
+    
+    
+}
+
+.contact {
+    width:50%;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: 2px solid #494137;
+    float:left;
+    
+}
+.contact-me .contact > h2 {
+    margin-top: 2px;
+    color:#Fa2;
+}
+.contact-me .contact > p {
+    width:85%;
+    color:#DCDDD8;
+    font-weight: 800;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #494137;
+}
+.contact-me form {
+    padding-bottom: 10px;
+}
+.contact-me form input {
+    padding: 5px;
+    border: 2px inset #888;
+    border-right:none;
+    border-bottom: none;
+    border-radius:2px;
+    background-color: #DBDBDB;
+    color:#000 !important;
+    font-weight:600;
+}
+.contact-me form input.name {
+    width: 220px;height: 20px;
+    margin-bottom: 15px;
+}
+.contact-me form input.email {
+    width: 220px;height: 20px;margin-left: 20px;
+}
+.contact-me form textarea {
+     padding: 5px;
+    border: 2px inset #888;
+    border-right:none;
+    border-bottom: none;
+    border-radius:2px;
+    background-color: #DBDBDB;
+    color:#000 !important;
+    font-weight:600;
+    display: block;
+    margin-bottom: 15px;
+}
+.contact-me form textarea.message{
+    width:476px;height:235px;
+    max-width: 476px;
+    max-height: 235px;
+    padding-top: -50px;
+}
+.contact-me span {
+    margin-bottom: 10px;
+    display: block;
+    font-weight:bold;
+    font-size:18px;
+    color:#E3DEC1;
+}
+.contact-me form button {
+    margin-top:2px;
+    margin-left: 2px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    background-color: #FEBC3F;
+    font-weight:bold;
+    padding: 8px 18px;
+    color:#FFF;
+    border-radius:2px;
+}
+.contact-me form button:hover {
+    background-color: #FFF;
+    color: #FEBC3F;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+/* ------------------------------------------------ */
+
+.contact-me .info {
+    width:50%;
+    height: 100%;
+    float:right;
+    box-sizing: border-box;
+    border-left: 1px solid #494137;
+    padding-left: 20px;
+    
+}
+.contact-me .info > h2 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color:#fa2;
+}
+.contact-me .info h3 {
+    color:#E3DEC1;
+    margin-top: 5px;
+    margin-bottom:0px; 
+    font-weight:bold;
+    font-size:21px;
+}
+.contact-me .info p {
+    color:#FFF;
+    display: inline-block;
+    margin-bottom: 0px;
+    color:#47AFAF;
+    margin-top:8px;
+    font-weight:bold;
+    font-size:19px;
+    
+}
+.contact-me .info span {
+    display: inline;
+    color:#DCDDD8;
+    font-size:17px;
+}
+.contact-me .info .one,
+.contact-me .info .two{
+    padding-bottom: 0px;
+    border-bottom: 2px solid #494137;
+}
+.contact-me .info .three {
+    
+}
+.brand {
+margin: 0px auto;
+}
+.contact-me .brand ul {
+    list-style: none;
+    overflow:hidden;
+    margin-top: 5px;
+    margin-bottom:5px;
+    padding-left: 0px;
+    padding-right: ;
+}
+.contact-me .brand ul li {float:left;margin:0px 2px;font-size: 25px;}
+.contact-me .brand ul li a {
+    text-decoration: none;color:#DCDDD8;
+}
+
+.contact-me .brand ul li .facebook-div a:hover {color:#FFF;}
+.contact-me .brand ul li .youtube-div a:hover {color:#FFF;}
+.contact-me .brand ul li .twitter-div a:hover {color:#FFF;}
+.contact-me .brand ul li .google-plus-div a:hover {color:#FFF;}
+/* End Contact me */
+/* Start Footer */
+.footer {
+    width:100%;
+    
+    background-color: #b22222;
+    box-shadow: 0px -4px 10px #000;
+    margin-top:1px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer span {
+    color:#DCDDD8;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* End Footer */
